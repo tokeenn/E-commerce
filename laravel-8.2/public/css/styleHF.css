@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+*{
+    font-family: monospace;
+    color: white;
+}
+body {
+    margin: 0px;
+    background: url(https://images.unsplash.com/photo-1604339754717-0d0efe86487c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
+    background-size: cover;
+}
+
+header {
+    transition: 1s;
+    margin-top: -8px;
+    margin-left: -7px;
+    margin-right: -7px;
+    margin: 0px;
+   }
+
+  
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:  20px;
+    color: white;
+
+    position: sticky;
+    top: 0;
+}
+
+header nav h1{
+    font-size: 24px;
+}
+
+header nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+}
+
+header nav .onglets p{
+    font-size: 21px;
+    margin-right:  40px;
+    cursor: pointer;
+}
+
+header nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+/* set animation */
+.logo_site {
+    width: 4%;
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration:none;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    
+}
+header .menu-deroulant
+{
+    transition: 1s;
+    height: 80px;
+    color: #FFF;
+    box-shadow: 10px 5px 5px black;
+    text-shadow: 1px 1px 1px #333;
+    background: url(https://i1.sndcdn.com/visuals-000020946955-1oz9aH-t1240x260.jpg);
+    width: 100%;
+}
+
+header .menu-deroulant:hover {
+    transition: 1s;
+    height: 150px;
+}
+
+header nav {
+    width: 100%;
+    font-size: 18px;
+    top: 0;
+}
+
+header nav > ul {
+    display: flex;
+    margin-top: 25px;
+    
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+header nav > ul > li:hover > a{
+    color: #2169EC;
+    
+}
+
+header li a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+
+.menu-deroulant:hover {
+    animation: apparitionSousMenu 1s forwards;
+    /*animation: mooveArrow 1s forwards;*/
+}
+
+header .menu-deroulant {
+    animation: apparitionSousMenuOut 1s reverse;
+
+}
+
+.connexion {
+    position: absolute;
+    right: 15px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.login {
+    margin-right: 10px;
+}
+
+
+.conteneur_menu {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    top: 80px;    
+}
+
+.conteneur_footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(14, 27, 66) 100%);
+}
+
+.footer_logos {
+    transition: 0.5s;
+    display: inline-block;
+    display: inline;
+    width: 3%;
+    margin-left: auto;
+    
+    
+}
+
+.footer_logos:hover {
+    transition: 0.5s;
+    width: 6%;
+    filter: drop-shadow(16px 16px 20px red) invert(100%);
+}
+
+.ul_footer_logos {
+    display: inline-block;
+    display: inline;
+    list-style: none;
+}
+
+.title_site {
+    position: absolute;
+    top: 10%;
+    margin-left: 5%;
+    
+}
+#fb_logo {
+    margin-left: 50%;
+}
+
+#twitter_logo {
+    margin-left: 300px;
+}
+
+header li.link {
+    float: left;
+    margin-right: 30px;
+}
+
+/* Login */
+a.login_button {
+    color: white;
+    position: fixed;
+    right: 10px;
+    font-size: 17px;
+    padding: 6px;
+    right: 10px;
+    border-radius: 10%;
+    background: #2169EC;
+    top: 0;
+    margin-top: 5px;
+  }
+
+  a.register_button {
+    position: fixed;
+    right: 10px;
+    padding: 4px;
+    right: 10px;
+    border-radius: 10%;
+    background: #2169EC;
+    margin-top: 40px;
+  }
+  
+  .connected_message {
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 35px;
+  }
+
+  a.logout_button {
+      position: fixed;
+      top: 40px;
+    padding: 4px;
+    right: 10px;
+    font-size: 17px;
+    border-radius: 10%;
+    background: #2169EC;
+  }
+  .name{
+      font-size: 17px;
+  }
+  .username {
+    display: flex;
+    position: fixed;
+    right: 250px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 10%;
+    border-width: 1em;
+    margin-top: 7px;
+    font-size: 10px;
+  }
+  .username img{
+    margin-right: 20px;
+    left: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+  }
+
+  .admin_page_button {
+    background: #2169EC;
+    padding: 10px;
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+  }
+  .onglets{
+    list-style-type: none;
+    margin: 0;
+    margin-left: -20;
+    padding: 0;
+    overflow: hidden;
+    padding-right: 210px;
+    padding-bottom: 10px;
+    padding-top: 6px;
+  }
+
+  .search{
+      align-self: center;
+      position: absolute;
+      top: 10%;
+  }
