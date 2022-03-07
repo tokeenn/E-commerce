@@ -32,9 +32,8 @@
 <h3 align="center">Liberty Commerce</h3>
 
   <p align="center">
-    "You decide to start your own e-commerce business.
-
-    During this project, you will be asked to build your dream website step by step with the help of the PHP framework 'Laravel'. "
+    You decide to start your own e-commerce business.
+    During this project, you will be asked to build your dream website step by step with the help of the PHP framework "Laravel". 
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
