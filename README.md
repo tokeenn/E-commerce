@@ -117,6 +117,7 @@ This is an example of how to list things you need to use the software and how to
    git clone https://github.com/github_username/repo_name.git
    ```
 2. See the installation process on the laravel website and the necessary components (composer, update, upgrade etc)
+  
   `https://laravel.com/docs/9.x`
    
 
